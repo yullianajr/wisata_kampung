@@ -20,6 +20,29 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+
 		$this->load->view('welcome_message');
+
+	}
+
+	public function tampilan_about () 
+	{
+		$this->load->view('head');
+		$this->load->view('about');
+		$this->load->view('footer');
+	}
+
+	public function tampilan_contact () 
+	{
+		$this->load->view('head');
+		$this->load->view('contact');
+		$this->load->view('footer');
+	}
+
+	public function tampilan_offers () 
+	{
+		$this->load->view('head');
+		$this->load->view('offers');
+		$this->load->view('footer');
 	}
 }
