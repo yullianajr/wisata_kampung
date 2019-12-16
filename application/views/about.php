@@ -351,7 +351,7 @@
 						<!-- Logo -->
 						<div class="logo_container">
 							<div class="logo">
-								<div>destino</div>
+								<div>kampung</div>
 								<div>travel agency</div>
 								<div class="logo_image"><img src="<?= base_url('')?>assets/images/logo.png" alt=""></div>
 							</div>
