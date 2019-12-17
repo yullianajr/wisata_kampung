@@ -310,22 +310,22 @@
 
   <!-- Popular -->
 
-  <!-- <div class="popular">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="section_title text-center">
-            <h2>Popular destinations in 2019</h2>
-            <div>take a look at these offers</div>
+    <!-- <div class="popular">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section_title text-center">
+              <h2>Popular destinations in 2019</h2>
+              <div>take a look at these offers</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="popular_content d-flex flex-md-row flex-column flex-wrap align-items-md-center align-items-start justify-content-md-between justify-content-start">
-            
-            <!-- Popular Item -->
-            <!-- <div class="popular_item">
+        <div class="row">
+          <div class="col">
+            <div class="popular_content d-flex flex-md-row flex-column flex-wrap align-items-md-center align-items-start justify-content-md-between justify-content-start">
+             -->
+           
+             <<!-- div class="popular_item">
               <a href="<?= base_url('welcome/tampilan_offers')?>">
                 <img src="<?= base_url('')?>assets/images/Prmabanan.jpeg">
                 <div class="popular_item_content">
@@ -336,19 +336,18 @@
             </div> -->
 
             <!-- Popular Item -->
-<!--             <div class="popular_item">
-              <!-- hrf buat tag ke tempat lain -->
-             <!--  <a href="<?= base_url('welcome/tampilan_offers')?>"> 
+            <!-- <div class="popular_item">
+              <a href="<?= base_url('welcome/tampilan_offers')?>"> 
                 <img src="<?= base_url('')?>assets/images/taman.jpeg">
                 <div class="popular_item_content">
                   <div class="popular_item_price">From Rp 10.000</div>
                   <div class="popular_item_title">Taman Sari</div>
                 </div>
               </a>  
-            </div> --> 
+            </div>  -->
 
             <!-- Popular Item -->
-           <!--  <div class="popular_item">
+            <!-- <div class="popular_item">
               <a href="<?= base_url('welcome/tampilan_offers')?>">
                 <img src="<?= base_url('assets/images/malio.jpeg')?>">
                 <div class="popular_item_content">
@@ -356,8 +355,8 @@
                   <div class="popular_item_title">JL.Malio</div>
                 </div>
               </a>  
-            </div> -->
-
+            </div>
+ -->
             <!-- Popular Item -->
             <!-- <div class="popular_item">
               <a href="<?= base_url('welcome/tampilan_offers')?>">
@@ -370,7 +369,7 @@
             </div> -->
 
             <!-- Popular Item -->
-            <!-- <div class="popular_item">
+           <!--  <div class="popular_item">
               <a href="<?= base_url('welcome/tampilan_offers')?>">
                 <img src="<?= base_url('assets/images/pindul.jpeg')?>">
                 <div class="popular_item_content">
@@ -421,21 +420,21 @@
 
   <!-- Special -->
 
-  <div class="special">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="section_title text-center">
-            <h2>Special offers</h2>
-            <div>take a look at these offers</div>
+      <div class="special">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section_title text-center">
+                <h2>Special offers</h2>
+                <div>take a look at these offers</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="special_content">
-      <div class="special_slider_container">
-        <div class="owl-carousel owl-theme special_slider">
-          
+        <div class="special_content">
+          <div class="special_slider_container">
+            <div class="owl-carousel owl-theme special_slider">
+              
           <!-- Special Offers Item -->
           <div class="owl-item">
             <div class="special_item">
@@ -532,25 +531,26 @@
         <div class="col-lg-4 footer_col">
           <div class="footer_about">
             <!-- Logo -->
-            <div class="logo_container">
-              <div class="logo">
-                <div>destino</div>
-                <div>travel agency</div>
-                <div class="logo_image"><img src="<?= base_url('')?>assets/images/logo.png" alt=""></div>
-              </div>
-            </div>
-            <div class="footer_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel eleifend quis, tempus rut rum metus. Pellentesque ultricies enim eu quam fermentum hendrerit.</div>
-            <div class="copyright"> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </div>
+           <div class="logo_container">
+                  <div class="logo">
+                    <div>Bina Kamsa</div>
+                    <div>Wisata Kampung Jogs</div>
+                    <div class="logo_image"><img src="<?= base_url('')?>assets/images/logo.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="footer_about_text">Kampung Jogs Merupakan applikasi berbasis web yang di buat oleh Baru Aja jadi Team guna mempermudah wisatawan maupun pengelola tempat wisata untuk bisa melihat daftar wisata maupun mengajukan program pembinaan.</div>
+
+            <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+ &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Baru aja jadi</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
           </div>
         </div>
 
         <!-- Footer Column -->
-        <div class="col-lg-4 footer_col">
+      <!--   <div class="col-lg-4 footer_col">
           <div class="footer_latest">
-            <!-- <div class="footer_title">Latest News</div> -->
-            <div class="footer_latest_content">
+            <div class="footer_title">Latest News</div>
+            <div class="footer_latest_content"> -->
 
               <!-- Footer Latest Post -->
              <!--  <div class="footer_latest_item">
@@ -570,31 +570,29 @@ Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </
                 </div>
               </div> -->
 
-            </div>
-          </div>
-        </div>
 
+  
         <!-- Footer Column -->
-        <div class="col-lg-4 footer_col">
-          <div class="tags footer_tags">
-            <div class="footer_title">Tags</div>
-            <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
-              <li class="tag"><a href="#">travel</a></li>
-              <li class="tag"><a href="#">summer</a></li>
-              <li class="tag"><a href="#">cruise</a></li>
-              <li class="tag"><a href="#">beach</a></li>
-              <li class="tag"><a href="#">offer</a></li>
-              <li class="tag"><a href="#">vacation</a></li>
-              <li class="tag"><a href="#">trip</a></li>
-              <li class="tag"><a href="#">city break</a></li>
-              <li class="tag"><a href="#">adventure</a></li>
-            </ul>
-          </div>
-        </div>
+                <div class="col-lg-4 footer_col">
+                  <div class="tags footer_tags">
+                    <div class="footer_title">Tags</div>
+                    <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+                      <li class="tag"><a href="#">travel</a></li>
+                      <li class="tag"><a href="#">summer</a></li>
+                      <li class="tag"><a href="#">cruise</a></li>
+                      <li class="tag"><a href="#">beach</a></li>
+                      <li class="tag"><a href="#">offer</a></li>
+                      <li class="tag"><a href="#">vacation</a></li>
+                      <li class="tag"><a href="#">trip</a></li>
+                      <li class="tag"><a href="#">city break</a></li>
+                      <li class="tag"><a href="#">adventure</a></li>
+                    </ul>
+                  </div>
+                </div>
 
-      </div>
-    </div>
-  </footer>
+              </div>
+            </div>
+          </footer>
 </div>
 
 <script src="js/jquery-3.2.1.min.js"></script>

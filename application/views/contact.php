@@ -212,67 +212,32 @@
 					</div>
 				</div>
 				
-				<body class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade">
-
-  <div class="container">
-
-    <!-- Outer Row -->
-    <div class="row justify-content-center">
-
-      <div class="col-xl-10 col-lg-12 col-md-9">
-
-        <div class="card o-hidden border-0 shadow-lg my-5">
-          <div class="card-body p-0">
-            <!-- Nested Row within Card Body -->
-            <div class="row">
-              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-              <div class="col-lg-6">
-                <div class="p-5">
-                  <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
-                  </div>
-                  <form class="user" action ="{{ route('login') }}" method="POST">
-                  @csrf
-                    <div class="form-group">
-                      <input type="email" class="form-control form-control-user @error('email') is-invalid @enderror" name="email" id="exampleInputEmail" value="{{ old('email') }}" aria-describedby="emailHelp" placeholder="Enter Email Address...">
-                      @error('email')
-                          <span class="invalid-feedback" role="alert">
-                              <strong>{{ $message }}</strong>
-                          </span>
-                      @enderror
-                    </div>
-                    <div class="form-group">
-                      <input type="password" class="form-control form-control-user @error('password') is-invalid @enderror" name="password" id="exampleInputPassword" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      <div class="custom-control custom-checkbox small">
-                        <input type="checkbox" class="custom-control-input" id="customCheck">
-                        <label class="custom-control-label" for="customCheck">Remember Me</label>
-                      </div>
-                      @error('password')
-                          <span class="invalid-feedback" role="alert">
-                              <strong>{{ $message }}</strong>
-                          </span>
-                      @enderror
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-user btn-block">
-                      Login
-                    </button>
-                    <hr>
-                  <div class="text-center">
-                    <a class="/register-old" href="/register">Create an Account!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
+				<form>
+				<div class="newsletter">
+				 Image by https://unsplash.com/@garciasaldana_
+				<div class="newsletter_background" style="background-image:url(<?= base_url('assets/')?>images/sky.jpg)"></div>
+				<div class="container">
+				<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+				<div class="col-lg-7">
+					<div class="contact_form_container">
+						<form action="#" id="contact_form" class="clearfix">
+							<input id="contact_input_username" class="contact_input contact_input_username" type="text" placeholder="username" required="required" data-error="username is required.">
+							<input id="contact_input_name" class="contact_input contact_input_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
+							<input id="contact_input_email" class="contact_input contact_input_email" type="text" placeholder="E-mail" required="required" data-error="E-mail is required.">
+							<input id="contact_input_noHp" class="contact_input contact_input_noHp" type="text" placeholder="noHp" required="required" data-error="noHp is required.">
+							<input type="checkbox" name="genderType[]" value="Wanita"><li> Wanita</li> <input type="checkbox" name="genderType[]" value="Pria"><li>Pria</li>
+							<input id="contact_input_alamat" class="contact_input contact_input_alamat" type="text" placeholder="alamat">
+							<textarea id="contact_input_alamat" class="contact_message_input contact_input_alamat" name="alamat" placeholder="Alamat" required="required" data-error="Please, write us a message."></textarea>
+							<div class="two field">
+								<div class="coloum field"></div>
+								<div class="coloum field"></div>
+							</div>
+							<button id="contact_send_btn" type="submit" class="contact_send_btn trans_200" value="Submit">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
 			</form>
 			<div class="row contact_map">
 				<!-- Google Map -->
@@ -324,15 +289,16 @@
 					<div class="footer_about">
 						<!-- Logo -->
 						<div class="logo_container">
-							<div class="logo">
-								<div>destino</div>
-								<div>travel agency</div>
-								<div class="logo_image"><img src="<?= base_url('assets/')?>images/logo.png" alt=""></div>
-							</div>
-						</div>
-						<div class="footer_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel eleifend quis, tempus rut rum metus. Pellentesque ultricies enim eu quam fermentum hendrerit.</div>
+		              <div class="logo">
+		                <div>Bina Kamsa</div>
+		                <div>Wisata Kampung Jogs</div>
+		                <div class="logo_image"><img src="<?= base_url('')?>assets/images/logo.png" alt=""></div>
+		              </div>
+		            </div>
+		            <div class="footer_about_text">Kampung Jogs Merupakan applikasi berbasis web yang di buat oleh Baru Aja jadi Team guna mempermudah wisatawan maupun pengelola tempat wisata untuk bisa melihat daftar wisata maupun mengajukan program pembinaan.</div>
+
 						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Baru aja jadi</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					</div>
 				</div>

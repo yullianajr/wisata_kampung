@@ -350,15 +350,16 @@
 					<div class="footer_about">
 						<!-- Logo -->
 						<div class="logo_container">
-							<div class="logo">
-								<div>kampung</div>
-								<div>travel agency</div>
-								<div class="logo_image"><img src="<?= base_url('')?>assets/images/logo.png" alt=""></div>
-							</div>
-						</div>
-						<div class="footer_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel eleifend quis, tempus rut rum metus. Pellentesque ultricies enim eu quam fermentum hendrerit.</div>
+		              <div class="logo">
+		                <div>Bina Kamsa</div>
+		                <div>Wisata Kampung Jogs</div>
+		                <div class="logo_image"><img src="<?= base_url('')?>assets/images/logo.png" alt=""></div>
+		              </div>
+		            </div>
+		            <div class="footer_about_text">Kampung Jogs Merupakan applikasi berbasis web yang di buat oleh Baru Aja jadi Team guna mempermudah wisatawan maupun pengelola tempat wisata untuk bisa melihat daftar wisata maupun mengajukan program pembinaan.</div>
+
 						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Baru aja jadi</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					</div>
 				</div>
