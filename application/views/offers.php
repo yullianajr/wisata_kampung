@@ -248,7 +248,7 @@
 
 						<!-- Item -->
 						<div class="item clearfix rating_5">
-							<div class="item_image"><img src="<?= base_url('')?>assets/images/Pule.jpeg"" alt=""></div>
+							<div class="item_image"><img src="<?= base_url('')?>assets/images/Pule.jpeg" alt=""></div>
 							<div class="item_content">
 								<div class="item_price">From Rp 40.000</div>
 								<div class="item_title">Desa Pulesari</div>
